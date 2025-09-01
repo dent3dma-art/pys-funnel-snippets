@@ -9,3 +9,12 @@ This repo holds **paste-ready HTML/JS blocks** and minimal CSS you can drop into
   - **Footer** for behaviors that can wait for the DOM.
 
 ## Structure
+- `/snippets/` – individual component markup.
+- `/styles/funnel.css` – global namespaced styles.
+
+## Available snippets
+| File | Purpose | ClickFunnels placement |
+| --- | --- | --- |
+| `snippets/couture-hero.html` | Hero section with heading, subhead, CTAs and trust row. | Elements → Custom JS/HTML |
+
+To apply the styling, add `styles/funnel.css` to **Settings → Tracking Code → Header**.

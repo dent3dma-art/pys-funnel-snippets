@@ -1,0 +1,88 @@
+:root {
+  --pys-color-navy-ultra-deep: #000820;
+  --pys-color-navy-deep: #001028;
+  --pys-color-navy-midnight: #0B1B31;
+  --pys-color-navy-slate: #212C32;
+  --pys-color-gold-light: #F8E6B5;
+  --pys-color-gold: #D4AF37;
+  --pys-color-gold-dark: #B8892A;
+  --pys-color-gold-deep: #8C6B1F;
+  --pys-shadow: #0A0F18;
+
+  --pys-font-heading: 'Cinzel', serif;
+  --pys-font-body: 'Montserrat', sans-serif;
+}
+
+.pys-hero {
+  font-family: var(--pys-font-body);
+  color: var(--pys-color-gold-light);
+  background: radial-gradient(circle at center, var(--pys-color-navy-midnight), var(--pys-color-navy-ultra-deep));
+  text-align: center;
+  padding: 4rem 1rem;
+  position: relative;
+}
+
+.pys-hero-title {
+  font-family: var(--pys-font-heading);
+  font-weight: 600;
+  color: var(--pys-color-gold-light);
+  margin-bottom: 1rem;
+}
+
+.pys-hero-sub {
+  max-width: 40rem;
+  margin: 0 auto 2rem;
+  color: var(--pys-color-gold-light);
+}
+
+.pys-cta-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.pys-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  color: var(--pys-color-navy-ultra-deep);
+}
+
+.pys-btn-primary {
+  background: linear-gradient(135deg, var(--pys-color-gold-light) 0%, var(--pys-color-gold) 50%, var(--pys-color-gold-dark) 75%, var(--pys-color-gold-deep) 100%);
+  box-shadow: inset 0 1px 2px 0 var(--pys-shadow);
+}
+
+.pys-btn-primary:hover {
+  background: linear-gradient(135deg, var(--pys-color-gold) 0%, var(--pys-color-gold) 50%, var(--pys-color-gold-dark) 75%, var(--pys-color-gold-deep) 100%);
+  transform: translateY(-2px);
+}
+
+.pys-btn-secondary {
+  background: transparent;
+  border: 1px solid var(--pys-color-gold);
+  color: var(--pys-color-gold-light);
+}
+
+.pys-trust-row {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  color: var(--pys-color-gold-light);
+  font-size: 0.875rem;
+}
+
+.pys-hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
